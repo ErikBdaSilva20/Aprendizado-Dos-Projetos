@@ -10,10 +10,10 @@ Este repositório serve como um "Cérebro Digital" (Zettelkasten adaptado para c
 
 ## 📂 Estrutura do Repositório
 
-| Pasta / Arquivo | Descrição |
-| :--- | :--- |
-| [`Aprendizado de projetos/`](./Aprendizado%20de%20projetos/) | Estudos práticos baseados em projetos reais. |
-| [`learn-agent.md`](./learn-agent.md) | O Guia/Workflow que utilizo para organizar meus estudos. |
+| Pasta / Arquivo                                              | Descrição                                                |
+| :----------------------------------------------------------- | :------------------------------------------------------- |
+| [`Aprendizado de projetos/`](./Aprendizado%20de%20projetos/) | Estudos práticos baseados em projetos reais.             |
+| [`learn-agent.md`](./learn-agent.md)                         | O Guia/Workflow que utilizo para organizar meus estudos. |
 
 ---
 
@@ -58,8 +58,8 @@ Seguindo o padrão do **LearnAgent**, cada tópico de estudo dentro dos arquivos
 
 Se você encontrou algo útil por aqui e quiser trocar uma ideia, fique à vontade!
 
-- **GitHub:** [Seu GitHub Aqui](https://github.com/SeuUsuario)
-- **LinkedIn:** [Seu LinkedIn Aqui](https://linkedin.com/in/SeuLink)
+- **Portifólio:** [https://erikbdsilva-hg.online/](https://erikbdsilva-hg.online/)
+- **LinkedIn:** [https://www.linkedin.com/in/erik-borgessilva20/](https://www.linkedin.com/in/erik-borgessilva20/)
 
 ---
 

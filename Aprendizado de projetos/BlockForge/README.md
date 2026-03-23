@@ -1,4 +1,4 @@
-# 🚀 Trilha de Aprendizado: Zyntra (BlockForge 3D)
+# 🚀 Trilha de Aprendizado: BlockForge 3D
 
 Bem-vindo ao seu guia completo de estudos para o projeto **BlockForge 3D**. Esta pasta foi organizada para transformar este repositório em sua sala de aula durante esta semana de estudos intensivos.
 

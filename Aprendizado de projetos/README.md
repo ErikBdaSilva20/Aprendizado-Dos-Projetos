@@ -10,12 +10,17 @@ Diferente de estudos isolados de sintaxe, esta pasta foca em como as tecnologias
 
 ## 📂 Projetos em Estudo
 
-| Projeto              | Descrição                                                                                                                 | Status          | Link                                     |
-| :------------------- | :------------------------------------------------------------------------------------------------------------------------ | :-------------- | :--------------------------------------- |
-| **Zyntra (NextHub)** | Sistema de gestão clínica com Next.js 16, Convex e Arquitetura Hexagonal.                                                 | 🏗️ Em Progresso | [Ver Estudos](./zyntra-NextHub-Academy/) |
-| **Potigua**          | Sistema de presentes de casamento com React.js, styled-components e Node.Js                                               | 🏗️ Concluído    | [Ver Estudos](./Potigua/)                |
-| **BlockForge**       | Editor 3d estilo Voxel com Javascript Moderno, React.Js, Three.js, Vite,                                                  | 🏗️ V- 1.0       | [Ver Estudos](./BlockForge/)             |
-| **DevBurguer**       | E-Commerce completo utilizando Node.js, Express, React.js, PostgreSQL, MongoDB, Firebase Admin, Mercado Pago e Cloudinary | 🏗️ Concluído    | [Ver Estudos](./DevBurguer/)             |
+| Projeto | Descrição | Status | Tecnologias | Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Zyntra (NextHub)** | Sistema de gestão clínica com Next.js 16, Convex e Arquitetura Hexagonal. | 🏗️ Em Progresso | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs&logoColor=white) ![Convex](https://img.shields.io/badge/Convex-000?style=flat&logo=convex&logoColor=white) ![TS](https://img.shields.io/badge/TS-007ACC?style=flat&logo=typescript&logoColor=white) | [Ver Estudos](./zyntra-NextHub-Academy/) |
+| **Potigua** | Sistema de presentes de casamento com React.js, styled-components e Node.Js | 🏗️ Concluído | ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Node](https://img.shields.io/badge/Node-339933?style=flat&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) | [Ver Estudos](./Potigua/) |
+| **BlockForge** | Editor 3d estilo Voxel com Javascript Moderno, React.Js, Three.js, Vite | 🏗️ V- 1.0 | ![Three.js](https://img.shields.io/badge/Three.js-000?style=flat&logo=threedotjs&logoColor=white) ![R3F](https://img.shields.io/badge/R3F-000?style=flat) ![Zustand](https://img.shields.io/badge/Zustand-000?style=flat) | [Ver Estudos](./BlockForge/) |
+| **DevBurguer** | E-Commerce completo com Node, Express, React, PostgreSQL e MongoDB | 🏗️ Concluído | ![Node](https://img.shields.io/badge/Node-339933?style=flat&logo=nodedotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Postgres](https://img.shields.io/badge/Postgres-336791?style=flat&logo=postgresql&logoColor=white) | [Ver Estudos](./DevBurguer/) |
+
+---
+
+> [!IMPORTANT]
+> **🚀 Novo!** Criamos um [**Mapa de Conhecimento Central (Índice de Tópicos)**](./MAPA_DE_CONHECIMENTO.md) para você encontrar conceitos (como "React" ou "Banco de Dados") em todos os projetos de uma vez.
 
 ---
 

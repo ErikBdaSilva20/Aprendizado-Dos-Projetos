@@ -33,7 +33,7 @@ A stack é **moderna e robusta**, usando:
 ## 📁 Estrutura desta Base de Conhecimento
 
 ```
-Learn/zyntra/
+zyntra-NextHub-Academy/
 ├── README.md              ← você está aqui
 ├── 01-nextjs.md           ← Next.js: App Router, layouts, rotas
 ├── 02-convex.md           ← Convex: banco, queries, mutations
@@ -91,4 +91,4 @@ Learn/zyntra/
 > [!TIP]
 > Use os links rápidos na tabela acima para navegar entre os tópicos.
 
-[⬅️ Voltar para a Home](../../README.md)
+[⬅️ Voltar para a Central de Aprendizado](../README.md)

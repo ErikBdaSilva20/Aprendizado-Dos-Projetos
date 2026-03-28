@@ -1,6 +1,6 @@
-# Arquitetura do Markdown Reader — Aprendizado Técnico
+# Arquitetura do Markdown Reader — Aprendizado Técnico (Este projeto)
 
-Este documento detalha o funcionamento interno do projeto Markdown Reader, seguindo a metodologia do `LearnAgent`. O objetivo é transformar a base de código em uma fonte de estudo para desenvolvedores.
+Este documento detalha o funcionamento interno do projeto Markdown Reader (este projeto), seguindo a metodologia do `LearnAgent`. O objetivo é transformar a base de código em uma fonte de estudo para desenvolvedores.
 
 ## Conceitos Principais
 
@@ -11,8 +11,9 @@ Este documento detalha o funcionamento interno do projeto Markdown Reader, segui
 
 ## Explicação Simplificada
 
-Imagine que o projeto é um "tradutor" que liga o GitHub (o servidor de arquivos) ao Navegador (o leitor). 
-1. Ele pergunta ao GitHub: "Quais arquivos você tem?". 
+Imagine que o projeto é um "tradutor" que liga o GitHub (o servidor de arquivos) ao Navegador (o leitor).
+
+1. Ele pergunta ao GitHub: "Quais arquivos você tem?".
 2. O GitHub devolve uma lista plana.
 3. O código transforma essa lista em uma "árvore" (como os arquivos no seu computador).
 4. Quando você clica em um arquivo, ele busca o texto puro desse arquivo e o "desenha" na tela com cores bonitas e formatação.
@@ -28,19 +29,19 @@ Aqui está como os dados brutos da API são transformados em uma estrutura aninh
 
 ```typescript
 // Exemplo simplificado de normalização de árvore (src/services/githubApi.ts)
-tree.forEach(item => {
-    const parts = item.path.split('/');
-    let currentPath = '';
+tree.forEach((item) => {
+  const parts = item.path.split('/');
+  let currentPath = '';
 
-    for (let i = 0; i < parts.length - 1; i++) {
-        // Constrói ou acessa os diretórios pais
-        currentPath = currentPath ? `${currentPath}/${parts[i]}` : parts[i];
-        if (!map.has(currentPath)) {
-            const dirNode = { name: parts[i], type: 'dir', children: [] };
-            map.set(currentPath, dirNode);
-            // Adiciona ao pai ou à raiz
-        }
+  for (let i = 0; i < parts.length - 1; i++) {
+    // Constrói ou acessa os diretórios pais
+    currentPath = currentPath ? `${currentPath}/${parts[i]}` : parts[i];
+    if (!map.has(currentPath)) {
+      const dirNode = { name: parts[i], type: 'dir', children: [] };
+      map.set(currentPath, dirNode);
+      // Adiciona ao pai ou à raiz
     }
+  }
 });
 ```
 
@@ -62,4 +63,5 @@ tree.forEach(item => {
 - O uso de `react-syntax-highlighter` com o tema Dracula deu uma cara muito profissional ao projeto.
 
 ---
-*Documentação gerada pelo LearnAgent para o projeto MarkdownReader.*
+
+_Documentação gerada pelo LearnAgent para o projeto MarkdownReader._

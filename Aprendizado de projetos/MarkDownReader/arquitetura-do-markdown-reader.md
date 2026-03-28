@@ -1,6 +1,6 @@
 # Arquitetura do Markdown Reader — Aprendizado Técnico (Este projeto)
 
-Este documento detalha o funcionamento interno do projeto Markdown Reader (este projeto), seguindo a metodologia do `LearnAgent`. O objetivo é transformar a base de código em uma fonte de estudo para desenvolvedores.
+Este documento detalha o funcionamento interno desta própria aplicação, seguindo a metodologia do `LearnAgent`. O objetivo é transformar a base de código em uma fonte de estudo para desenvolvedores.
 
 ## Conceitos Principais
 

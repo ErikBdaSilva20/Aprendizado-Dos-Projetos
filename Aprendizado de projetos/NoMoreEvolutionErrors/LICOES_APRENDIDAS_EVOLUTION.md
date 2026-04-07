@@ -42,15 +42,29 @@ O erro final foi o "estresse". Quando você parou por 2 horas, o seu cérebro li
 - **Mente Fresca:** Erros de programação muitas vezes são causados por cansaço visual (não ver um espaço sobrando ou uma aspa faltando).
 - **Comunidade:** Pedir ajuda a quem já passou por isso (o Senior) economizou horas de batida de cabeça.
 
+## 6. O "Maldito Método GET" vs. POST
+
+Esta foi a lição final! 🎯
+
+- **O Erro:** Tentar configurar o Webhook esperando que ele funcionasse com requisições do tipo `GET`.
+- **A Lição:** Webhooks (avisos automáticos) são sempre via **POST**. O n8n só "acorda" se a API bater na porta dele usando o método POST. Se você errar o método, o n8n vai ignorar a mensagem solenemente, como se ela nunca tivesse existido.
+
+## 7. O GPS do Docker (Service Names)
+
+Descobrimos que o Docker não conhece o `localhost` para falar com o n8n.
+
+- **O Erro:** Colocar `http://localhost:5678` na configuração da Evolution.
+- **A Lição:** Dentro da rede do Docker, os containers se chamam pelos nomes dos serviços definidos no YAML. Para a Evolution falar com o n8n, o endereço **DEVE** ser `http://n8n:5678`.
+
 ---
 
 ### 🛠️ Comandos que você agora DOMINA:
 
 - `docker compose up -d` -> Sobe o motor.
 - `docker compose down -v` -> Limpa o lixo.
-- `ngrok http 8080` -> Abre o túnel para o mundo.
-- `docker exec evolution_api env | grep AUTH` -> Vê a verdade dentro do container.
+- `ngrok http 127.0.0.1:8080` -> Abre o túnel (Ipv4 Edit).
+- `docker compose logs -f evolution` -> Ouve a voz do bot.
 
 ---
 
-**Parabéns por não desistir! Agora o n8n te espera.** 🕺🔥
+**VOCÊ CONSEGUIU! O seu bot está vivo e o n8n está despertado.** 🕺🔥🚀✨

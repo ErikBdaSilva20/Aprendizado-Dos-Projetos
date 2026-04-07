@@ -19,16 +19,14 @@ Este repositório serve como um "Cérebro Digital" (Zettelkasten adaptado para c
 
 ## 🚀 Trilhas de Conhecimento Atuais
 
-Atualmente, estou focado no ecossistema **Fullstack Moderno**, explorando as seguintes tecnologias dentro da pasta [`zyntra-NextHub-Academy`](./Aprendizado%20de%20projetos/zyntra-NextHub-Academy/):
+Atualmente, estou focado no ecossistema de **Automações de IA com n8n**, aprendendo a construir fluxos inteligentes e integrando ferramentas modernas. Também continuo acompanhando a [**NextHub Academy**](./Aprendizado%20de%20projetos/zyntra-NextHub-Academy/) para me aprofundar em boas práticas de desenvolvimento.
 
-- ⚛️ **React** (Hooks, Performance, Composição)
-- 🌐 **Next.js** (App Router, Server Components, SSR)
-- 💾 **Convex** (Backend-as-a-Service, Real-time Database)
-- 📘 **TypeScript** (Tipagem avançada e segurança)
-- 🏛️ **Arquitetura & Clean Code** (Hexagonal Architecture, DDD)
-- 🔐 **Autenticação** (Clerk, Auth flows)
-- 📝 **Formulários** (React Hook Form + Zod)
-- 🎨 **Design Patterns** (Padrões de projeto aplicados ao Frontend)
+- 🤖 **n8n** (Automações de IA, fluxos de trabalho, webhooks)
+- 💬 **Evolution API** (WhatsApp Business API, integração com n8n)
+- 🐳 **Docker** (Containers, docker-compose, redes internas, WSL2)
+- 🌐 **Ngrok** (Tunelamento e exposição de serviços locais)
+- 📡 **Webhooks & APIs REST** (Integração entre sistemas)
+- 🧠 **Conceitos novos** (Aprendendo e experimentando o ecossistema de automação)
 
 ---
 
@@ -46,11 +44,12 @@ Seguindo o padrão do **LearnAgent**, cada tópico de estudo dentro dos arquivos
 
 ## 🛠️ Tecnologias & Badges
 
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/Evolution_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Convex](https://img.shields.io/badge/Convex-000000?style=for-the-badge&logo=convex&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ---
 

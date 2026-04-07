@@ -52,5 +52,25 @@ Este arquivo serve como um índice global para todos os conceitos aprendidos nos
 
 ---
 
+## 🤖 Automações & Infra
+
+### Evolution API & WhatsApp
+- **Deploy com Docker (Windows/WSL2)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Configuração de Rede (DNS externo + IPv6 desativado)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Tunelamento com Ngrok (SERVER_URL pública)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Autenticação (API Key / Headers)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Reset de volumes Docker (`down -v`)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Fluxos e Webhooks**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/PASSO_A_PASSO_FLUXOS.md)
+
+### n8n (Automação de IA)
+- **Integração com Evolution API (WhatsApp)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/PASSO_A_PASSO_FLUXOS.md)
+
+### Docker & Containers
+- **docker-compose com múltiplos serviços (API + Postgres + Redis)**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Redes internas e resolução de host**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+- **Comandos essenciais**: [NoMoreEvolutionErrors](./NoMoreEvolutionErrors/LICOES_APRENDIDAS_EVOLUTION.md)
+
+---
+
 > [!TIP]
-> **Como usar:** Se você quer entender como o `React` é usado em um sistema de presentes, clique no link de **Potigua**. Se quer ver React em um editor 3D, clique em **BlockForge**.
+> **Como usar:** Se você quer entender como o `React` é usado em um sistema de presentes, clique no link de **Potigua**. Se quer ver React em um editor 3D, clique em **BlockForge**. Para automações com WhatsApp, vá para **NoMoreEvolutionErrors**.

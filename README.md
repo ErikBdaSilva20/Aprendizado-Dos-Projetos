@@ -57,7 +57,7 @@ Seguindo o padrão do **LearnAgent**, cada tópico de estudo dentro dos arquivos
 
 Se você encontrou algo útil por aqui e quiser trocar uma ideia, fique à vontade!
 
-- **Portifólio:** [https://erikbdsilva-hg.online/](https://erikbdsilva-hg.online/)
+- **Portifólio:** [https://erikbdsilva-hg-online.vercel.app/](https://erikbdsilva-hg-online.vercel.app/)
 - **LinkedIn:** [https://www.linkedin.com/in/erik-borgessilva20/](https://www.linkedin.com/in/erik-borgessilva20/)
 
 ---
